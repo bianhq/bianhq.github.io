@@ -1,361 +1,326 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Haoqiong Bian (卞昊穹) - Renmin University of China</title>
-    <meta name="description" content="Haoqiong Bian, Associate Professor at Renmin University of China. Research on high-performance data systems for AI and big data analytics.">
-    <meta name="keywords" content="Haoqiong Bian, 卞昊穹, Renmin University, data systems, cloud database, data lakehouse, Pixels, SIGMOD, ICDE">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Haoqiong Bian (卞昊穹)</title>
+    <meta name="description"
+        content="Haoqiong Bian, Associate Professor at Renmin University of China. Research on high-performance data systems for AI and big data analytics.">
+    <meta name="keywords"
+        content="Haoqiong Bian, 卞昊穹, Renmin University, data systems, cloud database, data lakehouse, Pixels, SIGMOD, ICDE">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <!-- Added vertical dot-line and adjusted layout -->
+    <style>
+        .sidebar {
+            border-right: 2px dotted #ccc;
+            padding-right: 15px;
+            margin-left: 0;
+            /* Adjusted to bring the sidebar closer to the left edge */
+        }
+
+        /* Ensure the top navigation bar spans the full width of the page and stays fixed at the top */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        body {
+            padding-top: 50px;
+            /* Adjust padding to prevent content overlap with the fixed navbar */
+        }
+
+        /* Center the entire content on the page */
+        .container {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 1200px;
+            /* Adjust the max-width as needed */
+        }
+    </style>
 </head>
+
 <body>
 
-<!-- Navigation -->
-<nav id="navbar">
-    <div class="nav-container">
-        <a href="#" class="nav-brand">Home</a>
-        <button class="nav-toggle" aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
-        <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#research">Research</a></li>
-            <li><a href="#publications">Publications</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#teaching">Teaching</a></li>
-            <li><a href="#awards">Awards</a></li>
-            <li><a href="#prospective">Join Us</a></li>
-        </ul>
-    </div>
-</nav>
-
-<!-- Hero Section -->
-<header id="hero">
-    <div class="hero-container">
-        <div class="hero-photo">
-            <img src="assets/profile.jpg" alt="Haoqiong Bian">
-        </div>
-        <div class="hero-text">
-            <h1>Bian Haoqiong<span class="chinese-name">卞昊穹</span></h1>
-            <p class="title">Associate Professor</p>
-            <p class="affiliation">
-                <a href="http://info.ruc.edu.cn/" target="_blank">Department of Computer Science and Technology</a>,
-                <a href="https://www.ruc.edu.cn/" target="_blank">Renmin University of China</a>
-            </p>
-            <div class="hero-links">
-                <a href="mailto:bianhq@ruc.edu.cn" title="Email"><i class="fas fa-envelope"></i> bianhq@ruc.edu.cn</a>
-                <a href="https://github.com/bianhq" target="_blank" title="GitHub"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://scholar.google.com/citations?user=PLACEHOLDER" target="_blank" title="Google Scholar"><i class="fas fa-graduation-cap"></i> Scholar</a>
-                <a href="http://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/5ae94aeb9bda4b279e9baae7260066f4.htm" target="_blank" title="中文主页"><i class="fas fa-globe"></i> 中文主页</a>
+    <!-- Top Bar -->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Haoqiong Bian</a>
             </div>
+            <ul class="nav navbar-nav">
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#service">Service</a></li>
+            </ul>
         </div>
-    </div>
-</header>
+    </nav>
 
-<!-- About Section -->
-<section id="about">
     <div class="container">
-        <div class="about-content">
-            <p>
-                I am an <strong>Associate Professor</strong> of Computer Science at
-                <a href="https://www.ruc.edu.cn/" target="_blank">Renmin University of China (RUC)</a>, where I lead the Data Systems Group.
-                My research focuses on <strong>high-performance data systems for AI and big data analytics</strong>,
-                including cloud-native databases, data lakehouses, AI-native storage systems, and hardware-aware data processing.
-            </p>
-            <p>
-                欢迎有意攻读硕士或博士研究生等同学和我联系，也欢迎RUC或其他学校同学加入课题组的研究工作和项目实习！
-            </p>
-        </div>
-    </div>
-</section>
 
-<!-- Research Section -->
-<section id="research" class="alt-bg">
-    <div class="container">
-        <h2><i class="fas fa-microscope"></i> Research Interests</h2>
-        <div class="research-grid">
-            <div class="research-card">
-                <div class="research-icon"><i class="fas fa-cloud"></i></div>
-                <h3>Cloud-Native Data Systems</h3>
-                <p>Cloud-native databases, data warehouses, and data lakehouses with disaggregated storage and compute architectures.</p>
-            </div>
-            <div class="research-card">
-                <div class="research-icon"><i class="fas fa-robot"></i></div>
-                <h3>AI-Native (Multimodal) Data Systems</h3>
-                <p>Novel storage systems designed for AI workloads, enabling efficient data access for machine learning and analytics.</p>
-            </div>
-            <div class="research-card">
-                <div class="research-icon"><i class="fas fa-microchip"></i></div>
-                <h3>Hardware-Aware Data Processing</h3>
-                <p>Data systems optimized for modern hardware including new storage devices, accelerators, and heterogeneous architectures.</p>
-            </div>
-            <div class="research-card">
-                <div class="research-icon"><i class="fas fa-server"></i></div>
-                <h3>Automated Database Diagnosis and Optimization</h3>
-                <p>Elastic and cost-efficient query processing using serverless cloud functions and adaptive resource allocation.</p>
-            </div>
-        </div>
-    </div>
-</section>
+        <div class="row">
 
-<!-- Open Source & Projects Section -->
-<section id="projects" class="alt-bg">
-    <div class="container">
-        <h2><i class="fas fa-code-branch"></i> Open Source Projects</h2>
+            <!-- Left Sidebar: Photo + Contact -->
+            <div class="col-sm-3 sidebar">
+                <img id="headshot" src="assets/profile.jpg" alt="Haoqiong Bian">
+                <h3>Contact</h3>
+                <div class="contact-block">
+                    <ul>
+                        <li>Email: <a href="mailto:bianhq@ruc.edu.cn">bianhq@ruc.edu.cn</a></li>
+                        <li>GitHub: <a href="https://github.com/bianhq">bianhq</a></li>
+                        <li>Scholar: <a href="https://scholar.google.com/citations?user=PLACEHOLDER">Google Scholar</a></li>
+                        <li><a href="http://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/5ae94aeb9bda4b279e9baae7260066f4.htm">中文主页</a></li>
+                    </ul>
+                </div>
+            </div>
 
-        <div class="project-highlight">
-            <div class="project-info">
-                <h3><a href="https://github.com/pixelsdb/pixels" target="_blank"><i class="fab fa-github"></i> Pixels — Cloud Data Lakehouse Engine</a></h3>
+            <!-- Main Content -->
+            <div class="col-sm-9 main-content">
+
+                <!-- Bio -->
                 <p>
-                    An efficient storage and compute engine for both on-prem and cloud-native data analytics.
-                    Pixels features an optimized columnar storage format, serverless query acceleration using cloud functions,
-                    natural-language-aided data analytics, and flexible pricing with service-level guarantees.
+                    I am an Associate Professor in the
+                    <a href="http://info.ruc.edu.cn/">Department of Computer Science and Technology</a> at
+                    <a href="https://www.ruc.edu.cn/">Renmin University of China</a>.
+                    My research interest is in <strong>high-performance data systems for AI and big data analytics</strong>,
+                    particularly in cloud-native databases/data lakehouses, AI-native storage systems, and hardware-aware data
+                    processing.
+                    I received my Ph.D. from Renmin University of China.
+                    Before joining RUC as a faculty member, I worked at
+                    <a href="https://www.epfl.ch/labs/dias/">EPFL DIAS Lab</a> as a Postdoctoral Researcher
+                    and at <a href="https://www.tencent.com/">Tencent</a> as a Senior Database Kernel Engineer.
                 </p>
-                <div class="project-stats">
-                    <span><i class="fas fa-star"></i> 900+ Stars</span>
-                    <span><i class="fas fa-code-branch"></i> 150+ Forks</span>
-                    <span><i class="fas fa-calendar-alt"></i> Since 2017</span>
-                </div>
-                <p class="project-impact">
-                    <strong>Impact:</strong> Key columnar storage techniques from Pixels are incorporated into
-                    <a href="https://openstd.samr.gov.cn/" target="_blank">China's National Standard GB/T 41818-2022</a>
-                    on analytical data storage. Query execution technologies and code have been adopted by
-                    major cloud vendors for database product prototyping.
+                <p>
+                    Since 2017, I have been leading the development of
+                    <a href="https://github.com/pixelsdb/pixels">Pixels</a>,
+                    an open-source cloud data lakehouse engine (900+ GitHub stars).
+                    I received the <strong>China Patent Gold Award</strong> as the first inventor &mdash;
+                    the first such award in the database field.
+                    I was selected for the National and Beijing Overseas Talent Programs.
                 </p>
+                <p style="background-color: #DEEBF7; padding: 8px 12px;">
+                    I am actively looking for motivated students to work on <strong>data systems</strong> and <strong>AI
+                    systems</strong>.
+                    欢迎对数据系统和AI系统感兴趣的优秀本科生来我们组实习和参与科研项目，欢迎推免和报考我的硕士、博士研究生。
+                    Feel free to <a href="mailto:bianhq@ruc.edu.cn">email me</a>.
+                </p>
+
+
+                <!-- Research -->
+                <a name="research"></a>
+                <h2>Research</h2>
+                <div class="content-block">
+                    <p>My research focuses on building efficient data systems that bridge the gap between real-world demands
+                        and system capabilities. Key areas include:</p>
+                    <ul>
+                        <li><strong>Cloud-native databases, data warehouses, and data lakehouses</strong> &mdash;
+                            disaggregated storage and compute architectures, serverless query processing, and cost-efficient
+                            elastic analytics.</li>
+                        <li><strong>AI-native (multimodal) data systems</strong> &mdash; novel storage systems designed for
+                            AI workloads, enabling efficient data access for machine learning and analytics.</li>
+                        <li><strong>Hardware-aware data processing</strong> &mdash; data systems optimized for modern hardware
+                            including new storage devices, accelerators, and heterogeneous architectures.</li>
+                        <li><strong>Automated database diagnosis and optimization</strong> &mdash; fine-grained, non-intrusive
+                            performance diagnosis and tuning for database systems.</li>
+                    </ul>
+                </div>
+
+                <!-- Open Source -->
+                <a name="opensource"></a>
+                <h2>Open Source</h2>
+                <div class="content-block">
+                    <p>
+                        <a href="https://github.com/pixelsdb/pixels"><strong>Pixels</strong></a> &mdash;
+                        An efficient storage and compute engine for both on-prem and cloud-native data analytics.
+                        Pixels features an optimized columnar storage format, serverless query acceleration using cloud
+                        functions,
+                        natural-language-aided data analytics, and flexible pricing with service-level guarantees.
+                        Key columnar storage techniques from Pixels are incorporated into
+                        China's National Standard (GB/T 41818-2022) on analytical data storage.
+                        Query execution technologies have been adopted by major cloud vendors for database product
+                        prototyping.
+                    </p>
+                </div>
+
+                <!-- Publications -->
+                <a name="publications"></a>
+                <h2>Publications</h2>
+                <div class="content-block">
+                    <ul class="pub-list">
+
+                        <li>
+                            <p>
+                                <a href="">DBdoctor: A Fine-grained and Non-intrusive Performance Diagnosis Platform for
+                                    Databases</a><br>
+                                <span class="pub-authors">Xinyue Shi, Quanqi Xin, Zhengjin Wang, Xinyi Zhang, <strong>Haoqiong
+                                    Bian</strong>*, Wei Lu, Qiyu Zhuang, Shuang Liu, Jikuan Zhang, Xiang Zheng, Yunpeng
+                                </span><br>
+                                <em>Proceedings of the 42nd IEEE International Conference on Data Engineering</em>
+                                (<strong>ICDE'26</strong>), To Appear.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="">PixelsDB: Serverless and NL-Aided Data Analytics with Flexible Service Levels
+                                    and Prices</a><br>
+                                <span class="pub-authors"><strong>Haoqiong Bian</strong>, Dongyang Geng, Haoyang Li, Yunpeng
+                                    Chai, Anastasia Ailamaki</span><br>
+                                <em>Proceedings of the 41st IEEE International Conference on Data Engineering</em>
+                                (<strong>ICDE'25</strong>), To Appear.
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="">Using Cloud Functions as Accelerator for Elastic Data Analytics</a><br>
+                                <span class="pub-authors"><strong>Haoqiong Bian</strong>, Tiannan Sha, Anastasia Ailamaki
+                                </span><br>
+                                <em>Proceedings of the ACM on Management of Data</em>
+                                (<strong>SIGMOD'23</strong>).
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="">Pixels: An Efficient Column Store for Cloud Data Lakes</a><br>
+                                <span class="pub-authors"><strong>Haoqiong Bian</strong>, Anastasia Ailamaki</span><br>
+                                <em>Proceedings of the 38th IEEE International Conference on Data Engineering</em>
+                                (<strong>ICDE'22</strong>).
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="">Columnar Storage Optimization and Caching for Data Lakes</a><br>
+                                <span class="pub-authors">Guodong Jin, <strong>Haoqiong Bian</strong> (co-first author),
+                                    Yueguo Chen, Xiaoyong Du</span><br>
+                                <em>Proceedings of the 25th International Conference on Extending Database Technology</em>
+                                (<strong>EDBT'22</strong>).
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="">Rainbow: Adaptive Layout Optimization for Wide Tables</a><br>
+                                <span class="pub-authors"><strong>Haoqiong Bian</strong>, Youxian Tao, Guodong Jin,
+                                    Yueguo Chen, Xiongpai Qin, Xiaoyong Du</span><br>
+                                <em>Proceedings of the 34th IEEE International Conference on Data Engineering</em>
+                                (<strong>ICDE'18</strong>).
+                            </p>
+                        </li>
+
+                        <li>
+                            <p>
+                                <a href="">Wide Table Layout Optimization based on Column Ordering and Duplication</a><br>
+                                <span class="pub-authors"><strong>Haoqiong Bian</strong>, Ying Yan, Wenbo Tao, Liang Jeff
+                                    Chen, Yueguo Chen, Xiaoyong Du, Thomas Moscibroda</span><br>
+                                <em>Proceedings of the 2017 International Conference on Management of Data</em>
+                                (<strong>SIGMOD'17</strong>).
+                            </p>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- Students -->
+                <a name="students"></a>
+                <h2>Students</h2>
+                <div class="content-block">
+                    <p>
+                        I annually recommend students for research internships at Tencent, Alibaba, ByteDance, and other
+                        industry partners.
+                    </p>
+                    <p><strong>Student Competition Achievements:</strong></p>
+                    <ul>
+                        <li>National Runner-up (2024 &amp; 2025) in the National College Student Computer System Capability
+                            Competition &mdash; PolarDB Track</li>
+                        <li>National Third Prize (2025) in the Database Kernel Track</li>
+                        <li>2024 Beijing Outstanding Undergraduate Thesis (1 of 4 in STEM across RUC)</li>
+                    </ul>
+                </div>
+
+                <!-- Teaching -->
+                <a name="teaching"></a>
+                <h2>Teaching</h2>
+                <div class="content-block">
+                    <ul>
+                        <li><strong>Computer Systems Fundamentals II (ICS2)</strong> &mdash; Undergraduate Core Course</li>
+                        <li><strong>Practical Database Development</strong> &mdash; 2024&ndash;2026</li>
+                        <li><strong>Open Source Software Practice</strong> &mdash; 2026&ndash;2027</li>
+                        <li><strong>Open Source Big Data Systems Practice</strong> &mdash; Starting 2027</li>
+                    </ul>
+                </div>
+
+                <!-- Experience -->
+                <a name="experience"></a>
+                <h2>Experience</h2>
+                <div class="content-block">
+                    <ul>
+                        <li><strong>Associate Professor</strong>, School of Information, Renmin University of China, 2025 &ndash;
+                            Present</li>
+                        <li><strong>Lecturer</strong>, School of Information, Renmin University of China, 2023 &ndash; 2025
+                        </li>
+                        <li><strong>Postdoctoral Researcher</strong>, DIAS Lab, EPFL, 2020 &ndash; 2023</li>
+                        <li><strong>Senior Database Kernel Engineer</strong>, TDSQL, Tencent, 2018 &ndash; 2020</li>
+                        <li><strong>Research Intern</strong>, Systems &amp; Algorithms Group, Microsoft Research Asia, 2014 &ndash;
+                            2015</li>
+                    </ul>
+                    <p><strong>Education:</strong></p>
+                    <ul>
+                        <li>Ph.D. in Computer Science, Renmin University of China, 2012 &ndash; 2018</li>
+                        <li>Visiting Ph.D. Student, The Ohio State University, 2015 &ndash; 2016</li>
+                        <li>B.Eng. in Computer Science, Hohai University, 2008 &ndash; 2012</li>
+                    </ul>
+                </div>
+
+                <!-- Awards -->
+                <a name="awards"></a>
+                <h2>Awards</h2>
+                <div class="content-block">
+                    <ul>
+                        <li><strong><span class="highlight">China Patent Gold Award</span></strong> (24th, First Inventor) &mdash;
+                            the first Gold Award in the database field.
+                            Patent on database transaction processing, applied in Tencent TDSQL.</li>
+                        <li><strong>National &amp; Beijing Overseas Talent Programs</strong> &mdash; selected for national-level
+                            and Beijing municipal-level overseas talent recruitment programs.</li>
+                        <li><strong>National Standard Contributor</strong> &mdash; key drafter of GB/T 41818-2022, National
+                            Standard for Analytical Data Storage and Retrieval.</li>
+                        <li><strong>Outstanding Advisor &amp; Special Contribution Award</strong> &mdash; 2024&ndash;2025 National
+                            CS System Capability Competition.</li>
+                        <li><strong>Beijing Outstanding Undergraduate Thesis Advisor</strong>, 2024.</li>
+                    </ul>
+                </div>
+
+                <!-- Service -->
+                <a name="service"></a>
+                <h2>Service</h2>
+                <div class="content-block">
+                    <ul>
+                        <li>Reviewer: VLDB, TODS, TKDE, DSE</li>
+                        <li>Executive Committee Member, CCF Open Source Development Committee</li>
+                    </ul>
+                </div>
+
             </div>
+            <!-- END Main Content -->
+
         </div>
+        <!-- END Row -->
+
     </div>
-</section>
+    <!-- END Container -->
 
-<!-- Publications Section -->
-<section id="publications">
-    <div class="container">
-        <h2><i class="fas fa-file-alt"></i>Publications</h2>
-        <p class="section-subtitle">Full list on <a href="https://scholar.google.com/citations?user=PLACEHOLDER" target="_blank">Google Scholar</a>. <span class="me-marker">*</span> = corresponding author.</p>
+    <footer class="footer text-muted">Last Updated: April, 2026</footer>
 
-        <div class="pub-list">
-            <div class="pub-item">
-                <span class="pub-venue">ICDE 2026</span>
-                <div class="pub-details">
-                    <p class="pub-title">DBdoctor: A Fine-grained and Non-intrusive Performance Diagnosis Platform for Databases</p>
-                    <p class="pub-authors">Xinyue Shi, Quanqi Xin, Zhengjin Wang, Xinyi Zhang, <strong>Haoqiong Bian*</strong>, Wei Lu, Qiyu Zhuang, Shuang Liu, Jikuan Zhang, Xiang Zheng, Yunpeng Chai, Xiaoyong Du</p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <span class="pub-venue">ICDE 2025</span>
-                <div class="pub-details">
-                    <p class="pub-title">PixelsDB: Serverless and NL-Aided Data Analytics with Flexible Service Levels and Prices</p>
-                    <p class="pub-authors"><strong>Haoqiong Bian</strong>, Dongyang Geng, Haoyang Li, Yunpeng Chai, Anastasia Ailamaki</p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <span class="pub-venue">SIGMOD 2023</span>
-                <div class="pub-details">
-                    <p class="pub-title">Using Cloud Functions as Accelerator for Elastic Data Analytics</p>
-                    <p class="pub-authors"><strong>Haoqiong Bian</strong>, Tiannan Sha, Anastasia Ailamaki</p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <span class="pub-venue">ICDE 2022</span>
-                <div class="pub-details">
-                    <p class="pub-title">Pixels: An Efficient Column Store for Cloud Data Lakes</p>
-                    <p class="pub-authors"><strong>Haoqiong Bian</strong>, Anastasia Ailamaki</p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <span class="pub-venue">EDBT 2022</span>
-                <div class="pub-details">
-                    <p class="pub-title">Columnar Storage Optimization and Caching for Data Lakes</p>
-                    <p class="pub-authors">Guodong Jin, <strong>Haoqiong Bian</strong> (co-first author), Yueguo Chen, Xiaoyong Du</p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <span class="pub-venue">ICDE 2018</span>
-                <div class="pub-details">
-                    <p class="pub-title">Rainbow: Adaptive Layout Optimization for Wide Tables</p>
-                    <p class="pub-authors"><strong>Haoqiong Bian</strong>, Youxian Tao, Guodong Jin, Yueguo Chen, Xiongpai Qin, Xiaoyong Du</p>
-                </div>
-            </div>
-
-            <div class="pub-item">
-                <span class="pub-venue">SIGMOD 2017</span>
-                <div class="pub-details">
-                    <p class="pub-title">Wide Table Layout Optimization based on Column Ordering and Duplication</p>
-                    <p class="pub-authors"><strong>Haoqiong Bian</strong>, Ying Yan, Wenbo Tao, Liang Jeff Chen, Yueguo Chen, Xiaoyong Du, Thomas Moscibroda</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-<!-- Experience Section -->
-<section id="experience">
-    <div class="container">
-        <h2><i class="fas fa-briefcase"></i> Experience</h2>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2025 – Present</span>
-                    <h3>Associate Professor</h3>
-                    <p>School of Information, Renmin University of China</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2023 – 2025</span>
-                    <h3>Lecturer</h3>
-                    <p>School of Information, Renmin University of China</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2020 – 2023</span>
-                    <h3>Postdoctoral Researcher</h3>
-                    <p>DIAS Lab, EPFL (Swiss Federal Institute of Technology in Lausanne)</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2018 – 2020</span>
-                    <h3>Senior Database Kernel Engineer</h3>
-                    <p>TDSQL, Tencent</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2014 – 2015</span>
-                    <h3>Research Intern</h3>
-                    <p>Systems &amp; Algorithms (SysAlgo) Group, Microsoft Research Asia</p>
-                </div>
-            </div>
-        </div>
-
-        <h3 class="subsection-title" style="margin-top: 2rem;">Education</h3>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-dot edu"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2012 – 2018</span>
-                    <h3>Ph.D. in Computer Science</h3>
-                    <p>Renmin University of China</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot edu"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2015 – 2016</span>
-                    <h3>Visiting Ph.D. Student</h3>
-                    <p>The Ohio State University</p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-dot edu"></div>
-                <div class="timeline-content">
-                    <span class="timeline-date">2008 – 2012</span>
-                    <h3>B.Eng. in Computer Science</h3>
-                    <p>Hohai University</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Teaching Section -->
-<section id="teaching" class="alt-bg">
-    <div class="container">
-        <h2><i class="fas fa-chalkboard-teacher"></i> Teaching</h2>
-        <div class="teaching-grid">
-            <div class="teaching-card">
-                <h3>Computer Systems Fundamentals II (ICS2)</h3>
-                <p class="teaching-meta">Undergraduate Core Course</p>
-            </div>
-            <div class="teaching-card">
-                <h3>Practical Database Development</h3>
-                <p class="teaching-meta">2024 – 2026</p>
-            </div>
-            <div class="teaching-card">
-                <h3>Open Source Software Practice</h3>
-                <p class="teaching-meta">2026 – 2027</p>
-            </div>
-            <div class="teaching-card">
-                <h3>Open Source Big Data Systems Practice</h3>
-                <p class="teaching-meta">Starting 2027</p>
-            </div>
-        </div>
-
-        <h3 class="subsection-title">Student Mentoring Highlights</h3>
-        <ul class="mentoring-list">
-            <li><i class="fas fa-trophy"></i> Supervised students to win <strong>National Runner-up (2024 &amp; 2025)</strong> in the National College Student Computer System Capability Competition — PolarDB Track</li>
-            <li><i class="fas fa-trophy"></i> Supervised students to win <strong>National Third Prize (2025)</strong> in the Database Kernel Track</li>
-            <li><i class="fas fa-award"></i> Supervised the <strong>2024 Beijing Outstanding Undergraduate Thesis</strong> (1 of 4 in STEM across RUC)</li>
-            <li><i class="fas fa-building"></i> Annually recommend students for <strong>Research Internships</strong> at Tencent, Alibaba, ByteDance, and other industry partners</li>
-        </ul>
-    </div>
-</section>
-
-<!-- Awards Section -->
-<section id="awards">
-    <div class="container">
-        <h2><i class="fas fa-award"></i> Honors &amp; Awards</h2>
-        <div class="awards-grid">
-            <div class="award-card highlight-award">
-                <div class="award-icon"><i class="fas fa-medal"></i></div>
-                <h3>China Patent Gold Award</h3>
-                <p>24th China Patent Awards — First Inventor. The first Gold Award in the database field. Patent on database transaction processing applied in Tencent TDSQL.</p>
-            </div>
-            <div class="award-card highlight-award">
-                <div class="award-icon"><i class="fas fa-user-tie"></i></div>
-                <h3>National &amp; Beijing Overseas Talent Programs</h3>
-                <p>Selected for national-level and Beijing municipal-level overseas talent recruitment programs.</p>
-            </div>
-            <div class="award-card">
-                <div class="award-icon"><i class="fas fa-chalkboard-teacher"></i></div>
-                <h3>Outstanding Advisor Awards</h3>
-                <p>Outstanding Advisor &amp; Special Contribution Award in 2024–2025 National CS System Capability Competition.</p>
-            </div>
-            <div class="award-card">
-                <div class="award-icon"><i class="fas fa-scroll"></i></div>
-                <h3>National Standard Contributor</h3>
-                <p>Key drafter of GB/T 41818-2022 — National Standard for Analytical Data Storage and Retrieval.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Footer -->
-<footer>
-    <div class="container">
-        <div class="footer-content">
-            <p>&copy; 2025 Haoqiong Bian. School of Information, Renmin University of China.</p>
-            <div class="footer-links">
-                <a href="mailto:bianhq@ruc.edu.cn"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/bianhq" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://github.com/pixelsdb/pixels" target="_blank"><i class="fas fa-database"></i></a>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<!-- Scroll to top -->
-<button id="scrollTop" title="Back to top"><i class="fas fa-arrow-up"></i></button>
-
-<script src="script.js"></script>
 </body>
-</html>
 
+</html>
