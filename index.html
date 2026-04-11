@@ -12,15 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <!-- Added vertical dot-line and adjusted layout -->
     <style>
-        .sidebar {
-            border-right: 2px dotted #ccc;
-            padding-right: 15px;
-            margin-left: 0;
-            /* Adjusted to bring the sidebar closer to the left edge */
-        }
-
         /* Ensure the top navigation bar spans the full width of the page and stays fixed at the top */
         .navbar {
             position: fixed;
@@ -32,15 +24,15 @@
 
         body {
             padding-top: 50px;
-            /* Adjust padding to prevent content overlap with the fixed navbar */
         }
 
         /* Center the entire content on the page */
         .container {
             margin-left: auto;
             margin-right: auto;
-            max-width: 1200px;
-            /* Adjust the max-width as needed */
+            max-width: 1000px;
+            padding-left: 20px;
+            padding-right: 20px;
         }
     </style>
 </head>
@@ -49,7 +41,7 @@
 
     <!-- Top Bar -->
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
+        <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">Haoqiong Bian</a>
             </div>
@@ -66,26 +58,26 @@
 
     <div class="container">
 
-        <div class="row">
+        <!-- Main Content -->
+        <div class="main-content">
 
-            <!-- Left Sidebar: Photo + Contact -->
-            <div class="col-sm-3 sidebar">
-                <img id="headshot" src="assets/profile.jpg" alt="Haoqiong Bian">
-                <h3>Contact</h3>
-                <div class="contact-block">
-                    <ul>
-                        <li>Email: <a href="mailto:bianhq@ruc.edu.cn">bianhq@ruc.edu.cn</a></li>
-                        <li>GitHub: <a href="https://github.com/bianhq">bianhq</a></li>
-                        <li>Scholar: <a href="https://scholar.google.com/citations?user=PLACEHOLDER">Google Scholar</a></li>
-                        <li><a href="http://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/5ae94aeb9bda4b279e9baae7260066f4.htm">中文主页</a></li>
-                    </ul>
+            <!-- Top section: Sidebar + Bio side by side -->
+            <div class="row">
+                <!-- Left Sidebar: Photo + Contact -->
+                <div class="col-sm-3 sidebar">
+                    <img id="headshot" src="assets/profile.jpg" alt="Haoqiong Bian">
+                    <h3>Contact</h3>
+                    <div class="contact-block">
+                        <ul>
+                            <li>Email: <a href="mailto:bianhq@ruc.edu.cn">bianhq@ruc.edu.cn</a></li>
+                            <li>GitHub: <a href="https://github.com/bianhq">bianhq</a></li>
+                            <li>Scholar: <a href="https://scholar.google.com/citations?user=PLACEHOLDER">Google Scholar</a></li>
+                            <li><a href="http://info.ruc.edu.cn/jsky/szdw/ajxjgcx/jsjkxyjsx1/fjs2/5ae94aeb9bda4b279e9baae7260066f4.htm">中文主页</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-
-            <!-- Main Content -->
-            <div class="col-sm-9 main-content">
-
                 <!-- Bio -->
+                <div class="col-sm-9">
                 <p>
                     I am an Associate Professor in the
                     <a href="http://info.ruc.edu.cn/">Department of Computer Science and Technology</a> at
@@ -112,7 +104,9 @@
                     欢迎对数据系统和AI系统感兴趣的优秀本科生来我们组实习和参与科研项目，欢迎推免和报考我的硕士、博士研究生。
                     Feel free to <a href="mailto:bianhq@ruc.edu.cn">email me</a>.
                 </p>
-
+                </div>
+            </div>
+            <!-- END Sidebar + Bio row -->
 
                 <!-- Research -->
                 <a name="research"></a>
@@ -313,8 +307,6 @@
             </div>
             <!-- END Main Content -->
 
-        </div>
-        <!-- END Row -->
 
     </div>
     <!-- END Container -->
