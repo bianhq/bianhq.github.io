@@ -44,11 +44,11 @@
             </div>
             <ul class="nav navbar-nav">
                 <li><a href="#research">Research</a></li>
-                <li><a href="#publications">Publications</a></li>
-                <li><a href="#teaching">Teaching</a></li>
                 <li><a href="#experience">Experience</a></li>
+                <li><a href="#students">Students</a></li>
+                <li><a href="#teaching">Teaching</a></li>
+                <li><a href="#publications">Publications</a></li>
                 <li><a href="#awards">Awards</a></li>
-                <li><a href="#service">Service</a></li>
             </ul>
         </div>
     </nav>
@@ -58,45 +58,32 @@
 
             <!-- Floating Sidebar -->
             <div class="col-sm-3" id="floating-sidebar">
-                <img id="headshot" src="assets/photo.png" alt="Haoqiong Bian">
-                <p class="sidebar-title">Associate Professor @ <a href="http://www.ruc.edu.cn/" target="_blank">Renmin University of China</a></p>
-                <p class="sidebar-affil">
-
-                </p>
-                <div class="contact-icons">
-                    <a href="mailto:bianhq@ruc.edu.cn" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://github.com/bianhq" title="GitHub" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://scholar.google.com/citations?user=pCcoxYUAAAAJ" title="Google Scholar" target="_blank"><i class="fas fa-graduation-cap"></i></a>
-                    </a>
-                </div>
+                <img id="headshot" src="assets/photo.jpg" alt="Haoqiong Bian">
+                <h3 class="sidebar-name">Haoqiong Bian</h3>
+                <ul class="sidebar-info">
+                    <li><i class="fas fa-briefcase"></i> Associate Professor</li>
+                    <li><i class="fas fa-university"></i> <a href="http://www.ruc.edu.cn/" target="_blank">Renmin University of China</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> Beijing, China</li>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:bianhq@ruc.edu.cn">bianhq@ruc.edu.cn</a></li>
+                    <li><i class="fab fa-github"></i> <a href="https://github.com/bianhq" target="_blank">GitHub (bianhq)</a></li>
+                    <li><i class="fas fa-graduation-cap"></i> <a href="https://scholar.google.com/citations?user=pCcoxYUAAAAJ" target="_blank">Google Scholar</a></li>
+                </ul>
             </div>
 
             <!-- Main Content -->
             <div class="col-sm-9 main-content">
                 <p>
-                            I am an Associate Professor in the
-                            <a href="http://info.ruc.edu.cn/">Department of Computer Science and Technology</a> at
-                            <a href="https://www.ruc.edu.cn/">Renmin University of China</a>.
+                            I am an Associate Professor of Computer Science at <a href="https://www.ruc.edu.cn/">Renmin University of China</a>.
                             My research interest is in <strong>high-performance data systems for AI and big data analytics</strong>,
                             particularly in cloud-native databases/data lakehouses, AI-native storage systems, and hardware-aware data
                             processing.
-                            I received my Ph.D. from Renmin University of China.
                             Before joining RUC as a faculty member, I worked at
                             <a href="https://www.epfl.ch/labs/dias/">EPFL DIAS Lab</a> as a Postdoctoral Researcher
                             and at <a href="https://www.tencent.com/">Tencent</a> as a Senior Database Kernel Engineer.
                         </p>
-                        <p>
-                            Since 2017, I have been leading the development of
-                            <a href="https://github.com/pixelsdb/pixels">Pixels</a>,
-                            an open-source cloud data lakehouse engine (900+ GitHub stars).
-                            I received the <strong>China Patent Gold Award</strong> as the first inventor &mdash;
-                            the first such award in the database field.
-                            I was selected for the National and Beijing Overseas Talent Programs.
-                        </p>
                         <p style="background-color: #DEEBF7; padding: 8px 12px;">
-                            I am actively looking for motivated students to work on <strong>data systems</strong> and <strong>AI
-                            systems</strong>.
-                            欢迎对数据系统和AI系统感兴趣的优秀本科生来我们组实习和参与科研项目，欢迎推免和报考我的硕士、博士研究生。
+                            I am actively looking for motivated students to work on <strong>Big Data Systems</strong> and <strong>Data for AI</strong>.
+                            欢迎对大数据系统和AI数据系统感兴趣的优秀本科生来研究组实习和科研早陪，欢迎有意攻读硕士、博士研究生的同学和我联系。
                             Feel free to <a href="mailto:bianhq@ruc.edu.cn">email me</a>.
                         </p>
                 <!-- Research -->
@@ -106,21 +93,21 @@
                             <p>My research focuses on building efficient data systems that bridge the gap between real-world demands
                                 and system capabilities. Key areas include:</p>
                             <ul>
-                                <li><strong>Cloud-native databases, data warehouses, and data lakehouses</strong> &mdash;
+                                <li><strong>Cloud-native Data Lakes</strong> &mdash;
                                     disaggregated storage and compute architectures, serverless query processing, and cost-efficient
                                     elastic analytics.</li>
-                                <li><strong>AI-native (multimodal) data systems</strong> &mdash; novel storage systems designed for
+                                <li><strong>AI-native (multimodal) Data Systems</strong> &mdash; novel storage systems designed for
                                     AI workloads, enabling efficient data access for machine learning and analytics.</li>
                                 <li><strong>Hardware-aware data processing</strong> &mdash; data systems optimized for modern hardware
                                     including new storage devices, accelerators, and heterogeneous architectures.</li>
-                                <li><strong>Automated database diagnosis and optimization</strong> &mdash; fine-grained, non-intrusive
+                                <li><strong>Automated Database Diagnosis and Optimization</strong> &mdash; fine-grained, non-intrusive
                                     performance diagnosis and tuning for database systems.</li>
                             </ul>
                         </div>
 
                         <!-- Open Source -->
                         <a name="opensource"></a>
-                        <h2>Open Source</h2>
+                        <h3>Open Source</h3>
                         <div class="content-block">
                             <p>
                                 <a href="https://github.com/pixelsdb/pixels"><strong>Pixels</strong></a> &mdash;
@@ -135,84 +122,20 @@
                             </p>
                         </div>
 
-                        <!-- Publications -->
-                        <a name="publications"></a>
-                        <h2>Publications</h2>
+                        <!-- Experience -->
+                        <a name="experience"></a>
+                        <h2>Experience</h2>
                         <div class="content-block">
-                            <ul class="pub-list">
-
-                                <li>
-                                    <p>
-                                        <a href="">DBdoctor: A Fine-grained and Non-intrusive Performance Diagnosis Platform for
-                                            Databases</a><br>
-                                        <span class="pub-authors">Xinyue Shi, Quanqi Xin, Zhengjin Wang, Xinyi Zhang, <strong>Haoqiong
-                                            Bian</strong>*, Wei Lu, Qiyu Zhuang, Shuang Liu, Jikuan Zhang, Xiang Zheng, Yunpeng
-                                        </span><br>
-                                        <em>Proceedings of the 42nd IEEE International Conference on Data Engineering</em>
-                                        (<strong>ICDE'26</strong>), To Appear.
-                                    </p>
+                            <ul>
+                                <li><strong>Associate Professor</strong>, School of Information, Renmin University of China, 2025 &ndash;
+                                    Present</li>
+                                <li><strong>Assistant Professor</strong>, School of Information, Renmin University of China, 2023 &ndash; 2025
                                 </li>
-
-                                <li>
-                                    <p>
-                                        <a href="">PixelsDB: Serverless and NL-Aided Data Analytics with Flexible Service Levels
-                                            and Prices</a><br>
-                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Dongyang Geng, Haoyang Li, Yunpeng
-                                            Chai, Anastasia Ailamaki</span><br>
-                                        <em>Proceedings of the 41st IEEE International Conference on Data Engineering</em>
-                                        (<strong>ICDE'25</strong>), To Appear.
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <p>
-                                        <a href="">Using Cloud Functions as Accelerator for Elastic Data Analytics</a><br>
-                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Tiannan Sha, Anastasia Ailamaki
-                                        </span><br>
-                                        <em>Proceedings of the ACM on Management of Data</em>
-                                        (<strong>SIGMOD'23</strong>).
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <p>
-                                        <a href="">Pixels: An Efficient Column Store for Cloud Data Lakes</a><br>
-                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Anastasia Ailamaki</span><br>
-                                        <em>Proceedings of the 38th IEEE International Conference on Data Engineering</em>
-                                        (<strong>ICDE'22</strong>).
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <p>
-                                        <a href="">Columnar Storage Optimization and Caching for Data Lakes</a><br>
-                                        <span class="pub-authors">Guodong Jin, <strong>Haoqiong Bian</strong> (co-first author),
-                                            Yueguo Chen, Xiaoyong Du</span><br>
-                                        <em>Proceedings of the 25th International Conference on Extending Database Technology</em>
-                                        (<strong>EDBT'22</strong>).
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <p>
-                                        <a href="">Rainbow: Adaptive Layout Optimization for Wide Tables</a><br>
-                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Youxian Tao, Guodong Jin,
-                                            Yueguo Chen, Xiongpai Qin, Xiaoyong Du</span><br>
-                                        <em>Proceedings of the 34th IEEE International Conference on Data Engineering</em>
-                                        (<strong>ICDE'18</strong>).
-                                    </p>
-                                </li>
-
-                                <li>
-                                    <p>
-                                        <a href="">Wide Table Layout Optimization based on Column Ordering and Duplication</a><br>
-                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Ying Yan, Wenbo Tao, Liang Jeff
-                                            Chen, Yueguo Chen, Xiaoyong Du, Thomas Moscibroda</span><br>
-                                        <em>Proceedings of the 2017 International Conference on Management of Data</em>
-                                        (<strong>SIGMOD'17</strong>).
-                                    </p>
-                                </li>
-
+                                <li><strong>Postdoctoral Researcher</strong>, DIAS Lab, EPFL, 2020 &ndash; 2023</li>
+                                <li><strong>Senior Database Kernel Engineer</strong>, TDSQL, Tencent, 2018 &ndash; 2020</li>
+                                <li><strong>Ph.D. in Computer Science</strong>, Renmin University of China, 2012 &ndash; 2018</li>
+                                <li><strong>Visiting Ph.D. Student</strong>, The Ohio State University, 2015 &ndash; 2016</li>
+                                <li><strong>Research Intern</strong>, Systems &amp; Algorithms Group, Microsoft Research Asia, 2014 &ndash; 2015</li>
                             </ul>
                         </div>
 
@@ -220,10 +143,6 @@
                         <a name="students"></a>
                         <h2>Students</h2>
                         <div class="content-block">
-                            <p>
-                                I annually recommend students for research internships at Tencent, Alibaba, ByteDance, and other
-                                industry partners.
-                            </p>
                             <p><strong>Student Competition Achievements:</strong></p>
                             <ul>
                                 <li>National Runner-up (2024 &amp; 2025) in the National College Student Computer System Capability
@@ -238,32 +157,201 @@
                         <h2>Teaching</h2>
                         <div class="content-block">
                             <ul>
-                                <li><strong>Computer Systems Fundamentals II (ICS2)</strong> &mdash; Undergraduate Core Course</li>
-                                <li><strong>Practical Database Development</strong> &mdash; 2024&ndash;2026</li>
-                                <li><strong>Open Source Software Practice</strong> &mdash; 2026&ndash;2027</li>
-                                <li><strong>Open Source Big Data Systems Practice</strong> &mdash; Starting 2027</li>
+                                <li><strong>Introduction to Computer System II (ICS2)</strong> &mdash; Spring, 2024 and later</li>
+                                <li><strong>Practical Database Development</strong> &mdash; Fall, 2024&ndash;2026</li>
+                                <li><strong>Open Source Software Practice</strong> &mdash; Fall, 2026</li>
                             </ul>
                         </div>
 
-                        <!-- Experience -->
-                        <a name="experience"></a>
-                        <h2>Experience</h2>
+                        <!-- Publications -->
+                        <a name="publications"></a>
+                        <h2>Publications</h2>
                         <div class="content-block">
-                            <ul>
-                                <li><strong>Associate Professor</strong>, School of Information, Renmin University of China, 2025 &ndash;
-                                    Present</li>
-                                <li><strong>Lecturer</strong>, School of Information, Renmin University of China, 2023 &ndash; 2025
+                            <ul class="pub-list">
+
+                                <li><p>
+                                    <sup>*</sup>corresponding, <sup>≈</sup>equal contribution
+                                </p></li>
+
+                                <li>
+                                    <p>
+                                        <a href="">Demonstrating DBdoctor: A Fine-grained and Non-intrusive Performance Diagnosis Platform for
+                                            Databases [Demo]</a><br>
+                                        <span class="pub-authors">Zhengjin Wang, Xiaofeng Hu, <strong>Haoqiong
+                                            Bian</strong>*, Yunda Guo, Jikuan Zhang*, Xiang Zheng*
+                                        </span><br>
+                                        <em>Proceedings of the 2026 ACM International Conference on Management of Data</em>
+                                        (<strong>SIGMOD'26</strong>).
+                                    </p>
                                 </li>
-                                <li><strong>Postdoctoral Researcher</strong>, DIAS Lab, EPFL, 2020 &ndash; 2023</li>
-                                <li><strong>Senior Database Kernel Engineer</strong>, TDSQL, Tencent, 2018 &ndash; 2020</li>
-                                <li><strong>Research Intern</strong>, Systems &amp; Algorithms Group, Microsoft Research Asia, 2014 &ndash;
-                                    2015</li>
-                            </ul>
-                            <p><strong>Education:</strong></p>
-                            <ul>
-                                <li>Ph.D. in Computer Science, Renmin University of China, 2012 &ndash; 2018</li>
-                                <li>Visiting Ph.D. Student, The Ohio State University, 2015 &ndash; 2016</li>
-                                <li>B.Eng. in Computer Science, Hohai University, 2008 &ndash; 2012</li>
+
+                                <li>
+                                    <p>
+                                        <a href="">DBdoctor: A Fine-grained and Non-intrusive Performance Diagnosis Platform for
+                                            Databases</a><br>
+                                        <span class="pub-authors">Xinyue Shi, Quanqi Xin, Zhengjin Wang, Xinyi Zhang, <strong>Haoqiong
+                                            Bian</strong>*, Wei Lu, Qiyu Zhuang, Shuang Liu, Jikuan Zhang*, Xiang Zheng*, Yunpeng Chai, Xiaoyong Du
+                                        </span><br>
+                                        <em>Proceedings of the 42nd IEEE International Conference on Data Engineering</em>
+                                        (<strong>ICDE'26</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/11113230">
+                                            PixelsDB: Serverless and NL-Aided Data Analytics with Flexible Service Levels and Prices [Demo]</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Dongyang Geng, Haoyang Li, Yunpeng
+                                            Chai, Anastasia Ailamaki</span><br>
+                                        <em>Proceedings of the 41st IEEE International Conference on Data Engineering</em>
+                                        (<strong>ICDE'25</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://arxiv.org/pdf/2409.01388">
+                                            Serverless Query Processing with Flexible Performance SLAs and Prices</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Dongyang Geng, Yunpeng
+                                            Chai, Anastasia Ailamaki</span><br>
+                                        <em>arXiv preprint arXiv:2409.01388</em>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://dl.acm.org/doi/pdf/10.1145/3589306">
+                                            Using Cloud Functions as Accelerator for Elastic Data Analytics</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Tiannan Sha, Anastasia Ailamaki
+                                        </span><br>
+                                        <em>Proceedings of the 2023 ACM International Conference on Management of Data</em>
+                                        (<strong>SIGMOD'23</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/9835615/">
+                                            Pixels: An Efficient Column Store for Cloud Data Lakes</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Anastasia Ailamaki</span><br>
+                                        <em>Proceedings of the 38th IEEE International Conference on Data Engineering</em>
+                                        (<strong>ICDE'22</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://guodongjin.com/paper/pixels-edbt.pdf">
+                                            Columnar Storage Optimization and Caching for Data Lakes</a><br>
+                                        <span class="pub-authors">Guodong Jin, <strong>Haoqiong Bian</strong>≈,
+                                            Yueguo Chen, Xiaoyong Du</span><br>
+                                        <em>Proceedings of the 25th International Conference on Extending Database Technology</em>
+                                        (<strong>EDBT'22</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://ceur-ws.org/Vol-2841/SIMPLIFY_8.pdf">
+                                            Storage Management in Smart Data Lake</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Bikash Chandra,
+                                            Ioannis Mytilinis, Anastasia Ailamaki</span><br>
+                                        <em>1st International Workshop on Data Analytics and Machine Learning Made Simple</em>
+                                        (<strong>SIMPLIFY'21</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://www.cidrdb.org/cidr2020/gongshow2020/gongshow/abstracts/cidr2020_abstract74.pdf">
+                                            Pixels: Multiversion Wide Table Store for Data Lakes [Abstract]</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong></span><br>
+                                        <em>10th Annual Conference on Innovative Data Systems Research</em>
+                                        (<strong>CIDR'20</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://www.jos.org.cn/jos/article/abstract/5872">
+                                            HDFS存储和优化技术研究综述 (Survey on Storage and Optimization Techniques of HDFS)</a><br>
+                                        <span class="pub-authors">Guodong Jin, Haoqiong Bian, Yueguo Chen, Xiaoyong Du</span><br>
+                                        <em>Journal of Software, 2020, 31(1): 137-161</em>.
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/8509421">
+                                            Rainbow: Adaptive Layout Optimization for Wide Tables [Demo]</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Youxian Tao, Guodong Jin,
+                                            Yueguo Chen, Xiongpai Qin, Xiaoyong Du</span><br>
+                                        <em>Proceedings of the 34th IEEE International Conference on Data Engineering</em>
+                                        (<strong>ICDE'18</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://dl.acm.org/doi/pdf/10.1145/3035918.3035930">
+                                            Wide Table Layout Optimization based on Column Ordering and Duplication</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Ying Yan, Wenbo Tao, Liang Jeff
+                                            Chen, Yueguo Chen, Xiaoyong Du, Thomas Moscibroda</span><br>
+                                        <em>Proceedings of the 2017 ACM International Conference on Management of Data</em>
+                                        (<strong>SIGMOD'17</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://link.springer.com/chapter/10.1007/978-3-319-25255-1_69">
+                                            A Fast Data Ingestion and Indexing Scheme for Real-Time Log Analytics</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Yueguo Chen, Xiongpai Qin, Xiaoyong Du</span><br>
+                                        <em>The 17th Asia-Pacific Web Conference</em>
+                                        (<strong>APWeb'15</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://link.springer.com/chapter/10.1007/978-3-319-13021-7_12">
+                                            A Study of SQL-on-Hadoop Systems</a><br>
+                                        <span class="pub-authors">Yueguo Chen, Xiongpai Qin, <strong>Haoqiong Bian</strong>, Jun Chen,
+                                            Zhaoan Dong, Xiaoyong Du, Yanjie Gao, Dehai Liu, Jiaheng Lu, Huijie Zhang</span><br>
+                                        <em>The 5th Workshop on Big Data Benchmarks, Performance Optimization, and Emerging Hardware</em>
+                                        (<strong>BPOE'14</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://xblk.ecnu.edu.cn/CN/10.3969/j.issn.1000%EE%80%915641.2014.05.023">
+                                            Spark上的等值连接优化 (Equi-join optimization on spark)</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Yueguo Chen, Xiaoyong Du, Yanjie Gao</span><br>
+                                        <em>Journal of East China Normal University (Natural Sc), 2014, 2014(5): 261-270</em>
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://dl.acm.org/doi/pdf/10.1145/2505515.2508209">
+                                            MetKB: enriching RDF knowledge bases with web entity-attribute tables [Demo]</a><br>
+                                        <span class="pub-authors"><strong>Haoqiong Bian</strong>, Yueguo Chen, Xiaoyong Du, Xiaolu Zhang</span><br>
+                                        <em>Proceedings of the 22nd ACM international conference on Information & Knowledge Management</em>
+                                        (<strong>CIKM'13</strong>).
+                                    </p>
+                                </li>
+
+                                <li>
+                                    <p>
+                                        <a href="https://ieeexplore.ieee.org/abstract/document/6597133">
+                                            Efficient SPARQL query evaluation in a database cluster</a><br>
+                                        <span class="pub-authors">Fang Du, <strong>Haoqiong Bian</strong>, Yueguo Chen, Xiaoyong Du</span><br>
+                                        <em>2013 IEEE International Congress on Big Data</em>
+                                        (<strong>BigData Congress'13</strong>).
+                                    </p>
+                                </li>
+
                             </ul>
                         </div>
 
@@ -277,21 +365,9 @@
                                     Patent on database transaction processing, applied in Tencent TDSQL.</li>
                                 <li><strong>National &amp; Beijing Overseas Talent Programs</strong> &mdash; selected for national-level
                                     and Beijing municipal-level overseas talent recruitment programs.</li>
-                                <li><strong>National Standard Contributor</strong> &mdash; key drafter of GB/T 41818-2022, National
-                                    Standard for Analytical Data Storage and Retrieval.</li>
                                 <li><strong>Outstanding Advisor &amp; Special Contribution Award</strong> &mdash; 2024&ndash;2025 National
-                                    CS System Capability Competition.</li>
+                                    Computer System Capability Competition for College Students.</li>
                                 <li><strong>Beijing Outstanding Undergraduate Thesis Advisor</strong>, 2024.</li>
-                            </ul>
-                        </div>
-
-                        <!-- Service -->
-                        <a name="service"></a>
-                        <h2>Service</h2>
-                        <div class="content-block">
-                            <ul>
-                                <li>Reviewer: VLDB, TODS, TKDE, DSE</li>
-                                <li>Executive Committee Member, CCF Open Source Development Committee</li>
                             </ul>
                         </div>
 
