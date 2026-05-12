@@ -324,6 +324,55 @@ h3 {
     font-size: 16px;
 }
 
+.pub-actions {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 8px;
+}
+
+.pub-action {
+    display: inline-block;
+    padding: 1px 8px;
+    border: 1px solid #d9e2f2;
+    border-radius: 999px;
+    background: #f8fbff;
+    color: #124496 !important;
+    font-size: 12px;
+    font-weight: 500 !important;
+    line-height: 1.5;
+    font-family: inherit;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+
+.pub-action:hover {
+    background: #eef4ff;
+    color: #731D1D !important;
+    text-decoration: none !important;
+}
+
+.pub-action:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(18, 68, 150, 0.18);
+}
+
+.pub-action-success {
+    background: #eef7ee;
+    border-color: #cfe6cf;
+    color: #2f6b2f !important;
+}
+
+.pub-action-error {
+    background: #fff2f2;
+    border-color: #f0caca;
+    color: #a33a3a !important;
+}
+
 /* ========== Highlight ========== */
 .highlight {
     color: #cc1c1c;
