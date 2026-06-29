@@ -1,4 +1,10 @@
 const bibtexEntries = {
+        "li2027ease": `@inproceedings{li2027ease,
+  title     = {EASE: Resource-Aware Query Scheduling across Heterogeneous Cloud Compute Services},
+  author    = {Wenbo Li and Haoqiong Bian and Chao Zhang and Guoliang Li},
+  booktitle = {Proceedings of the 2027 ACM International Conference on Management of Data},
+  year      = {2027}
+}`,
 	"li2026lake-tables": `@inproceedings{li2026lake-tables,
   title     = {How Consistent and Fresh are Lake Tables Really},
   author    = {Zinuo Li and Dongyang Geng and Haoqyue Li and Hailong Yu and Qi Lei and Haoqiong Bian},
