@@ -23,6 +23,12 @@ const bibtexEntries = {
   booktitle = {Proceedings of the 42nd IEEE International Conference on Data Engineering},
   year      = {2026}
 }`,
+	"guo2026eunomia": `@inproceedings{guo2026eunomia,
+  title     = {Eunomia: Preemption-based and QoS-aware Core Allocation in Oversubscribed Cloud},
+  author    = {Guo, Yunda and Wu, Puqing and Bian, Haoqiong and Chai, Yunpeng and Shen, Yao and Yang, Haoyu and Liu, Qing and Huang, Zhengbin and Yue, Le and Yang, Yi},
+  booktitle = {Proceedings of the 2026 Design, Automation & Test in Europe Conference (DATE)},
+  year      = {2026}
+}`,
 	"bian2025pixelsdb-demo": `@inproceedings{bian2025pixelsdb-demo,
   title     = {PixelsDB: Serverless and NL-Aided Data Analytics with Flexible Service Levels and Prices},
   author    = {Haoqiong Bian and Dongyang Geng and Haoyang Li and Yunpeng Chai and Anastasia Ailamaki},
