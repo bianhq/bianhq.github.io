@@ -7,7 +7,7 @@ const bibtexEntries = {
 }`,
 	"li2026lake-tables": `@inproceedings{li2026lake-tables,
   title     = {How Consistent and Fresh are Lake Tables Really},
-  author    = {Zinuo Li and Dongyang Geng and Haoqyue Li and Hailong Yu and Qi Lei and Haoqiong Bian},
+  author    = {Zinuo Li and Dongyang Geng and Haoyue Li and Hailong Yu and Qi Lei and Haoqiong Bian},
   booktitle = {Proceedings of the 1st International Workshop on Data FORMATS for Modern Architectures and Workloads},
   year      = {2026}
 }`,
